@@ -1,3 +1,16 @@
+.clearfix {
+  zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden;
+}
+.clearfix:after {
+  clear: both;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -67,4 +80,27 @@ body {
   font-family: "Helvetica Neue", Hevetica, Arial, sans-serif;
   font-size: 110%;
   line-height: 1.4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+.basic-text {
+  line-height: 1.4;
+}
+
+.two-up-text {
+  float: left;
+  width: 50%;
+  padding: 60px;
+  display: inline-block;
+}
+
+#site-nav li {
+  float: left;
 }
