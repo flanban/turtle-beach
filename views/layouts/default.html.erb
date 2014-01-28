@@ -9,19 +9,13 @@
     <![endif]-->
   </head>
   <body>
-    <header role="banner">
-      <h1><a href="/"><%= image "turtlebay-logo" %></a></h1>
-    </header>
-    <section role="main">
-      <article>
-        <header><h1><%= @title %></h1></header>
+    <%= render "/partials/header" %>
+    <%= render "/partials/site-nav" %>
+    <section id='content-wrapper'>
+
         <%= yield %>
-      </article>
+
     </section>
-    <footer>
-        <p>
-          Turtle Beach. copyright ©2035
-        </p>
-    </footer>
+    <%= render "/partials/footer" %>
   </body>
 </html>
