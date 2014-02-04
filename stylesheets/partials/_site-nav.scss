@@ -1,5 +1,14 @@
 #site-nav {
+  margin-top:16px;
   li {
     float:left;
+    a {
+      font-family:'Oswald';
+      text-transform:uppercase;
+      color:#FFFFFF;
+      padding:20px;
+      font-size:20px;
+      opacity:.5;
+    }
   }
 }

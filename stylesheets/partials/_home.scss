@@ -1,0 +1,26 @@
+header {
+  padding-top: 110px;
+  padding-left: 80px;
+  width:50%;
+  display:block;
+  #head-wrap {
+    margin:auto;
+    display:block;
+    position:relative;
+    width:420px;
+    #main-logo {
+      width:280px;
+      display:block;
+      margin:auto;
+      position:relative;
+    }
+  }
+}
+#intro-text {
+  width:780px;
+  max-width:100%;
+  position:absolute;
+  bottom:80px;
+  left:80px;
+  padding-right: 130px;
+}
